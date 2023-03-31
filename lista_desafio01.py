@@ -42,3 +42,19 @@ resto = num1 % num2
 
 print(f"Quociente: {quociente}\nResto:{resto}")
 
+# Ler base e altura do triângulo
+
+base = float(input("Informe a base do triângulo: "))
+altura = float(input("Informe a altura do triângulo: "))
+
+area = (base / altura) / 2
+print(f"Área do Triângulo: {area}")
+
+# Ler o raio de uma circunfêrencia
+import math
+
+raio = float(input("Informe o raio de uma circunfêrencia: "))
+perimetro = round(2 * raio *  math.pi,2)
+area = round(math.pi * raio ** 2,2)
+
+print(f"Perímetro: {perimetro}\nÁrea: {area}")
