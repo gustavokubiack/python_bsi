@@ -1,3 +1,3 @@
-# python_bsi
+# Exer
 
-Repositório contendo todas as listas de Introdução a Programação do Bacharelado em Sistemas de Informação.
+Repositório contendo todas as listas de exercício em Python do Bacharelado em Sistemas de Informação.
