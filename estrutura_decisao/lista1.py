@@ -148,6 +148,116 @@ match sigla:
         print("Mineiro")
 default: print("Outros")
 
+# Um comerciante comprou um produto e quer vendê-lo com um lucro de 45% se o valor da compra for menor que R$ 20,00; Caso contrário, o lucro será de 30%. Entrar com o valor do produto e imprimir o valor da venda.
+
+produto = float(input("Informe o valor de produto: "))
+
+if produto < 20.00:
+    print(f"Valor da compra: R$ {(produto * 0.45) + produto}")
+else:
+    print(f"Valor da compra: R$ {(produto * 0.30) + produto}")
 
 
+# Entrar com um número de 1 a 12 e exibir o mês correspondente.
 
+mes = int(input("Informe um número de 1 a 12: "))
+match mes:
+    case 1:
+        print("Janeiro")
+    case 2:
+        print("Fevereiro")
+    case 3:
+        print("Março")
+    case 4:
+        print("Abril")
+    case 5:
+        print("Maio")
+    case 6:
+        print("Junho")
+    case 7:
+        print("Julho")
+    case 8:
+        print("Agosto")
+    case 9:
+        print("Setembro")
+    case 10:
+        print("Outubro")
+    case 11:
+        print("Novembro")
+    case 12:
+        print("Dezembro")
+
+# Faça um algoritmo que verifique se uma letra digitada é vogal ou consoante.
+letra = input("Informe uma letra: ")
+if letra in "aeiouAEIOU":
+    print(f"{letra} é uma vogal")
+else:
+    print(f"{letra} é uma consoante")
+
+# Ler 2 valores (considere que não serão lidos valores iguais) e escrever o maior deles.
+num1 = float(input("Informe o primeiro valor: "))
+num2 = float(input("Informe o segundo número: "))
+
+if num1 == num2:
+    print("Valores iguais")
+elif num1 > num2:
+    print(f"{num1} é maior que {num2}")
+else:
+    print(f"{num2} é maior que {num1}")
+
+# Ler 2 valores (considere que não serão lidos valores iguais) e escrevê-los em ordem crescente.
+
+num1 = float(input("Informe o primeiro valor: "))
+num2 = float(input("Informe o segundo número: "))
+
+if num1 == num2:
+    print("Valores iguais")
+elif num1 > num2:
+    print(f"{num2}, {num1}")
+else:
+    print(f"{num1}, {num2}")
+
+# Ler 3 valores (considere que não serão informados valores iguais) e escrever o maior deles.
+
+num1 = float(input("Informe o primeiro valor: "))
+num2 = float(input("Informe o segundo número: "))
+num3 = float(input("Informe o terceiro número: "))
+
+if num1 > num2 and num1 > num3:
+    print(f"{num1} é maior que {num2} e {num3}")
+elif num2 > num1 and num2 > num3:
+    print(f"{num2} é maior que {num1} e {num3}")
+else:
+    print(f"{num3} é maior que {num1} e {num2}")
+
+# Ler 3 valores (considere que não serão informados valores iguais) e escrever a soma dos 2 maiores.
+
+num1 = float(input("Informe o primeiro valor: "))
+num2 = float(input("Informe o segundo número: "))
+num3 = float(input("Informe o terceiro número: "))
+
+if num1 > num2 and num1 > num3:
+    print(f"A soma de {num1} e {num2} é {num1 + num2}\n")
+elif num2 > num1 and num2 > num3:
+    print(f"A soma de {num2} e {num3} é {num2 + num3}\n")
+else:
+    print(f"A soma de {num3} e {num2} é {num3 + num2}\n")
+
+# Ler 3 valores (considere que não serão informados valores iguais) e escrevê-los em ordem crescente.
+
+# Faça um algoritmo que leia as duas notas parciais obtidas por um aluno numa disciplina ao longo de um semestre, e calcule a sua média. A atribuição de conceitos obedece à tabela abaixo:
+
+nota1 = float(input("Informe a nota1: "))
+nota2 = float(input("Informe a nota2: "))
+media = (nota1 + nota2) / 2
+
+if media <= 10 and media >= 9:
+    print(f"APROVADO!\nMédia: {media}\nConceito A")
+elif media >= 7.5 and media <= 9:
+    print(f"APROVADO!\nMédia: {media}\nConceito B")
+elif media >= 6.0  and media <= 7.5:
+    print(f"APROVADO!\nMédia: {media}\nConceito C")
+elif media >= 4.0 and media <= 6.0:
+    print(f"REPRPVADO!\nMédia: {media}\nConceito D")
+else:
+    print(f"REPROVADO!\nMédia: {media}\nConceito E")
