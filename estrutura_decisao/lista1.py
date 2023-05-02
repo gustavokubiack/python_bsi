@@ -243,7 +243,7 @@ elif num2 > num1 and num2 > num3:
 else:
     print(f"A soma de {num3} e {num2} é {num3 + num2}\n")
 
-# Ler 3 valores (considere que não serão informados valores iguais) e escrevê-los em ordem crescente.
+# Ler 3 valores (considere que não serão informados valores iguais) e escrevê-los em ordem crescente. (FAZER)
 
 # Faça um algoritmo que leia as duas notas parciais obtidas por um aluno numa disciplina ao longo de um semestre, e calcule a sua média. A atribuição de conceitos obedece à tabela abaixo:
 
@@ -258,6 +258,83 @@ elif media >= 7.5 and media <= 9:
 elif media >= 6.0  and media <= 7.5:
     print(f"APROVADO!\nMédia: {media}\nConceito C")
 elif media >= 4.0 and media <= 6.0:
-    print(f"REPRPVADO!\nMédia: {media}\nConceito D")
+    print(f"REPROADO!\nMédia: {media}\nConceito D")
 else:
     print(f"REPROVADO!\nMédia: {media}\nConceito E")
+
+# Escrever um algoritmo para ler dois valores e uma das seguintes operações a serem executadas (codificadas da seguinte forma: 1 – Adição, 2 – Subtração, 3 – Multiplicação e 4 – Divisão). Calcular e escrever o resultado dessa operação sobre os dois valores lidos.
+
+num1 = float(input("Informe o primeiro valor: "))
+num2 = float(input("Informe o segundo valor: "))
+operacao = int(input("Informe a operação. 1 – Adição, 2 – Subtração, 3 – Multiplicação e 4 – Divisão: "))
+
+if operacao == 1:
+    print(f"Adição: {num1 + num2}")
+elif operacao == 2:
+    print(f"Subtração: {num1 - num2}")
+elif operacao == 3:
+    print(f"Multiplicação: {num1 * num2}")
+elif operacao == 4:
+    print(f"Divisão: {num1 / num2}")
+else:
+    print("Valor inválido!")
+
+"""Faça um algoritmo para calcular as raízes reais de uma equação quadrática: ax2 + bx + c = 0. Uma equação quadrática só tem raiz reais se (b2 - 4ac) for maior ou igual a zero. O algoritmo deverá informar as seguintes situações:
+• Se o delta calculado for negativo, a equação não possui raízes reais. Informe ao
+usuário e encerre o programa;
+• Se o delta calculado for igual a zero a equação possui apenas uma raiz real,
+informe-a ao usuário;
+• Se o delta for positivo, a equação possui duas raiz reais, informe-as ao usuário.
+"""
+import math
+
+a = float(input("Informe o valor de a: "))
+b = float(input("Informe o valor de b: "))
+c = float(input("Informe o valor de c: "))
+
+delta = (b ** 2) - 4 * a * c
+print(delta)
+if delta < 0:
+    print("Valor inválido!")
+elif delta == 0:
+    bhaskara = (-b + (math.sqrt(delta))) / 2 * a
+    print(f"x1: {bhaskara}")
+else:
+    x1 = (-b + (math.sqrt(delta))) / (2 * a)
+    print(x1)
+    x2 = (-b - (math.sqrt(delta))) / (2 * a)
+    print(f"x1: {x1} e x2: {x2}")
+    
+""" Faça um algoritmo que leia 3 valores a, b, c, e verifique se podem ser os comprimentos dos lados de um triângulo. Em caso afirmativo, verifique se é “triângulo equilátero”, “triângulo isósceles” ou “triângulo escaleno”. Em caso negativo, escreva uma mensagem: “os valores lidos não formam um triângulo”. Considere que:
+• o comprimento de cada lado de um triângulo é menor que a soma dos
+comprimentos dos outros lados
+• um triângulo equilátero tem três lados iguais
+• um triângulo isósceles tem dois lados iguais e um diferente """
+
+# FAZER
+
+"""Escreva um algoritmo que leia 4 valores (opção, a, b, c), onde opção é um valor
+inteiro e positivo e a, b, c são quaisquer valores reais. Escreva os valores lidos da
+seguinte maneira:
+se opção = 1 Þ escreva os 3 valores a, b, c em ordem crescente
+se opção = 2 Þ escreva os 3 valores a, b, c em ordem decrescente
+se opção = 3 Þ escreva os 3 valores de forma que o maior valor entre a, b, c fica
+entre os outros 2."""
+
+# FAZER
+
+# Exercício 29
+
+salario = float(input("Informe o salário: "))
+if salario <= 400:
+    print(f"Salário: {salario}\nReajuste: 15%\nNovo salário: {salario + (salario * 0.15)}")
+elif salario > 400 and salario <= 700:
+    print(f"Salário: {salario}\nReajuste: 12%\nNovo salário: {salario + (salario * 0.12)}")
+elif salario > 700 and salario <= 1000:
+    print(f"Salário: {salario}\nReajuste: 10%\nNovo salário: {salario + (salario * 0.10)}")
+elif salario > 1000 and salario <= 1500:
+    print(f"Salário: {salario}\nReajuste: 7%\nNovo salário: {salario + (salario * 0.07)}")
+elif salario > 1500 and salario <= 2000:
+    print(f"Salário: {salario}\nReajuste: 5%\nNovo salário: {salario + (salario * 0.05)}")
+else:
+    print("Sem reajuste!")
