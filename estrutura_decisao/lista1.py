@@ -1,4 +1,4 @@
-# Ler um valor e escrever se é positivo, negativo ou zero.
+# Exercício 1
 
 num = float(input("Informe o número: "))
 if num > 0:
@@ -8,7 +8,7 @@ elif num < 0:
 else:
     print(f"O número {num} é igual que 0") 
 
-# Ler um valor e escrever a mensagem É MAIOR QUE 10! se o valor lido for maior que 10, caso contrário escrever NÃO É MAIOR QUE 10!
+# Exercício 2
 
 num = float(input("Informe o número: "))
 if num >= 10:
@@ -16,7 +16,7 @@ if num >= 10:
 else:
     print(f"{num} é menor que 10.")
 
-# Calcule a soma de dois números, se o resultado for maior que 10, mostre-o na tela.
+# Exercício 3
 
 num1 = float(input("Informe o primeiro número: "))
 num2= float(input("Informe o segundo número: "))
@@ -26,15 +26,16 @@ if num1 + num2 > 10:
 else:
     print("Não é maior que 10")
 
-# Entrar com um número e informar se ele é divisível por 5.
+# Exercício 4
 
 num = float(input("Informe o número: "))
+
 if num % 5 == 0:
     print("É divisível por 5")
 else:
     print("Não é divisível por 5")
 
-# Construir um algoritmo que indique se o número digitado está entre 20 e 90 ou não.
+# Exercício 5
 
 num = float(input("Informe o número: "))
 
@@ -43,7 +44,7 @@ if num > 20 and num < 90:
 else:
     print(f'O {num} não está entre 20 e 90.')
 
-# Ler o ano atual e o ano de nascimento de uma pessoa. Escrever uma mensagem que diga se ela poderá ou não votar este ano (não é necessário considerar o mês em que a pessoa nasceu).
+# Exercício 6
 
 ano_atual = int(input("Informe o ano atual: "))
 ano_nascimento = int(input("Informe seu ano de nascimento: "))
@@ -53,7 +54,7 @@ if ano_atual - ano_nascimento >= 16:
 else:
     print("Você não pode votar")
 
-# Entrar com o ano de nascimento de uma pessoa e imprimir a idade dela. Verificar se o ano digitado é válido.
+# Exercício 7
 
 ano_nascimento = int(input("Informe seu ano de nascimento: "))
 if ano_nascimento > 0 and ano_nascimento <= 2023:
@@ -61,7 +62,7 @@ if ano_nascimento > 0 and ano_nascimento <= 2023:
 else: 
     print("Ano inválido!")
 
-# Entrar com a idade de uma pessoa e exibir a mensagem; Maior de idade, menor de idade ou acima de 65 anos.
+# Exercício 8
 idade = float(input("Informe sua idade: "))
 if idade < 18:
     print("Menor de idade!")
@@ -70,7 +71,7 @@ elif idade >= 18 and idade <= 65:
 else: 
     print("Acima de 65 anos!")
 
-# Ler as notas da 1a. e 2a . avaliações de um aluno. Calcular a média aritmética simples e escrever uma mensagem que diga se o aluno foi ou não aprovado (considerar que se a nota for igual ou maior que 6 o aluno é aprovado). Escrever também a média calculada.
+# Exercício 9
 
 nota1 = float(input("Informe a primeira nota: "))
 nota2 = float(input("Informe a segunda nota: "))
@@ -80,7 +81,7 @@ if (nota1 + nota2) / 2 >= 6:
 else:
     print(f"Reprovado! Sua média é: {(nota1 + nota2) / 2}")
 
-# Escrever um algoritmo para ler duas notas de um aluno e escrever na tela a palavra “Aprovado” se a média das duas notas for maior ou igual a 7,0. Caso a média seja inferior a 7,0, o programa deve ler a nota do exame e calcular a média final. Se esta média for maior ou igual a 5,0, o programa deve escrever “Aprovado”, caso contrário deve escrever “Reprovado”.
+# Exercício 10
 
 nota1 = float(input("Informe a primeira nota: "))
 nota2 = float(input("Informe a segunda nota: "))
@@ -97,7 +98,7 @@ else:
     else:
         print("Reprovado!")
 
-# Escrever um algoritmo para ler a quantidade de horas aula dadas por dois professores e o valor por hora recebido por cada um. Mostrar na tela qual dos professores tem salário total maior.
+# Exercício 11
 
 horas_prof1 = float(input("Informe a quantidade de horas do 1º professor: "))
 valor_prof1 = float(input("Informe o valor dahora trabalhada do 1º professor: "))
@@ -113,7 +114,7 @@ if sal_prof1 > sal_prof2:
 else:
     print("O Professor 2 tem um salário maior!")
 
-# Faça um algoritmo que leia um número inteiro e mostre uma mensagem indicando se este número é par ou ímpar.
+# Exercício 12
 
 num = int(input("Informe um número inteiro: "))
 if num % 2 == 0:
@@ -121,7 +122,7 @@ if num % 2 == 0:
 else:
     print(f"{num} não é par!")
 
-# Ler o nome de 2 times e o número de gols marcados na partida. Escrever o nome do vencedor. Caso não haja vencedor deverá ser impressa a palavra EMPATE.
+# Exercício 13
 
 time1 = input("Informe o nome do primeiro time: ")
 gol_1 = int(input(f"Informe os gols do {time1}: "))
@@ -136,7 +137,7 @@ elif gol_2 > gol_1:
 else: 
     print("O jogo terminou empatado!")
 
-# Entrar com a sigla do estado de uma pessoa e imprimir uma das mensagens: “Carioca, Paulista, Mineiro ou Outros”
+# Exercício 14
 
 sigla = input("Informe a sigla do seu estado: ")
 match sigla:
@@ -148,7 +149,7 @@ match sigla:
         print("Mineiro")
 default: print("Outros")
 
-# Um comerciante comprou um produto e quer vendê-lo com um lucro de 45% se o valor da compra for menor que R$ 20,00; Caso contrário, o lucro será de 30%. Entrar com o valor do produto e imprimir o valor da venda.
+# Exercício 15
 
 produto = float(input("Informe o valor de produto: "))
 
@@ -158,7 +159,7 @@ else:
     print(f"Valor da compra: R$ {(produto * 0.30) + produto}")
 
 
-# Entrar com um número de 1 a 12 e exibir o mês correspondente.
+# Exercício 16
 
 mes = int(input("Informe um número de 1 a 12: "))
 match mes:
@@ -187,14 +188,16 @@ match mes:
     case 12:
         print("Dezembro")
 
-# Faça um algoritmo que verifique se uma letra digitada é vogal ou consoante.
+# Exercício 17
+
 letra = input("Informe uma letra: ")
 if letra in "aeiouAEIOU":
     print(f"{letra} é uma vogal")
 else:
     print(f"{letra} é uma consoante")
 
-# Ler 2 valores (considere que não serão lidos valores iguais) e escrever o maior deles.
+# Exercício 18
+
 num1 = float(input("Informe o primeiro valor: "))
 num2 = float(input("Informe o segundo número: "))
 
@@ -205,7 +208,7 @@ elif num1 > num2:
 else:
     print(f"{num2} é maior que {num1}")
 
-# Ler 2 valores (considere que não serão lidos valores iguais) e escrevê-los em ordem crescente.
+# Exercício 19
 
 num1 = float(input("Informe o primeiro valor: "))
 num2 = float(input("Informe o segundo número: "))
@@ -217,7 +220,7 @@ elif num1 > num2:
 else:
     print(f"{num1}, {num2}")
 
-# Ler 3 valores (considere que não serão informados valores iguais) e escrever o maior deles.
+# Exercício 20
 
 num1 = float(input("Informe o primeiro valor: "))
 num2 = float(input("Informe o segundo número: "))
@@ -230,7 +233,7 @@ elif num2 > num1 and num2 > num3:
 else:
     print(f"{num3} é maior que {num1} e {num2}")
 
-# Ler 3 valores (considere que não serão informados valores iguais) e escrever a soma dos 2 maiores.
+# Exercício 21
 
 num1 = float(input("Informe o primeiro valor: "))
 num2 = float(input("Informe o segundo número: "))
@@ -243,9 +246,17 @@ elif num2 > num1 and num2 > num3:
 else:
     print(f"A soma de {num3} e {num2} é {num3 + num2}\n")
 
-# Ler 3 valores (considere que não serão informados valores iguais) e escrevê-los em ordem crescente. (FAZER)
+# Exercício 22 
 
-# Faça um algoritmo que leia as duas notas parciais obtidas por um aluno numa disciplina ao longo de um semestre, e calcule a sua média. A atribuição de conceitos obedece à tabela abaixo:
+# Ler três valores
+valor1 = int(input("Digite o primeiro valor: "))
+valor2 = int(input("Digite o segundo valor: "))
+valor3 = int(input("Digite o terceiro valor: "))
+
+valores_ordenados = sorted([valor1, valor2, valor3])
+print("Valores em ordem crescente:", valores_ordenados)
+
+# Exercício 23
 
 nota1 = float(input("Informe a nota1: "))
 nota2 = float(input("Informe a nota2: "))
@@ -262,7 +273,7 @@ elif media >= 4.0 and media <= 6.0:
 else:
     print(f"REPROVADO!\nMédia: {media}\nConceito E")
 
-# Escrever um algoritmo para ler dois valores e uma das seguintes operações a serem executadas (codificadas da seguinte forma: 1 – Adição, 2 – Subtração, 3 – Multiplicação e 4 – Divisão). Calcular e escrever o resultado dessa operação sobre os dois valores lidos.
+# Exercício 24
 
 num1 = float(input("Informe o primeiro valor: "))
 num2 = float(input("Informe o segundo valor: "))
@@ -279,13 +290,8 @@ elif operacao == 4:
 else:
     print("Valor inválido!")
 
-"""Faça um algoritmo para calcular as raízes reais de uma equação quadrática: ax2 + bx + c = 0. Uma equação quadrática só tem raiz reais se (b2 - 4ac) for maior ou igual a zero. O algoritmo deverá informar as seguintes situações:
-• Se o delta calculado for negativo, a equação não possui raízes reais. Informe ao
-usuário e encerre o programa;
-• Se o delta calculado for igual a zero a equação possui apenas uma raiz real,
-informe-a ao usuário;
-• Se o delta for positivo, a equação possui duas raiz reais, informe-as ao usuário.
-"""
+# Exercício 25
+
 import math
 
 a = float(input("Informe o valor de a: "))
@@ -305,25 +311,75 @@ else:
     x2 = (-b - (math.sqrt(delta))) / (2 * a)
     print(f"x1: {x1} e x2: {x2}")
     
-""" Faça um algoritmo que leia 3 valores a, b, c, e verifique se podem ser os comprimentos dos lados de um triângulo. Em caso afirmativo, verifique se é “triângulo equilátero”, “triângulo isósceles” ou “triângulo escaleno”. Em caso negativo, escreva uma mensagem: “os valores lidos não formam um triângulo”. Considere que:
-• o comprimento de cada lado de um triângulo é menor que a soma dos
-comprimentos dos outros lados
-• um triângulo equilátero tem três lados iguais
-• um triângulo isósceles tem dois lados iguais e um diferente """
+# Exercício 26 (FAZER)
 
-# FAZER
+a = float(input("Informe o valor de a: "))
+b = float(input("Informe o valor de b: "))
+c = float(input("Informe o valor de c: "))
+if a < b + c and b < a + c and c < a + b:
+    if a == b and a == c:
+        print("Triângulo equilátero")
+    elif a == b or a == c or b == c:
+        print("Triângulo isósceles")
+    else:
+        print("Triângulo escaleno")
+else:
+    print("Os valores lidos não formam um triângulo")
 
-"""Escreva um algoritmo que leia 4 valores (opção, a, b, c), onde opção é um valor
-inteiro e positivo e a, b, c são quaisquer valores reais. Escreva os valores lidos da
-seguinte maneira:
-se opção = 1 Þ escreva os 3 valores a, b, c em ordem crescente
-se opção = 2 Þ escreva os 3 valores a, b, c em ordem decrescente
-se opção = 3 Þ escreva os 3 valores de forma que o maior valor entre a, b, c fica
-entre os outros 2."""
+# Exercício 27 
 
-# FAZER
+opcao = int(input("Digite a opção desejada (1 para ordem crescente, 2 para ordem decrescente ou 3 para o maior valor ficar entre os outros dois): "))
+a = float(input("Digite o valor de a: "))
+b = float(input("Digite o valor de b: "))
+c = float(input("Digite o valor de c: "))
 
-# Exercício 29
+if opcao == 1:
+    if a <= b <= c:
+        print(a, b, c)
+    elif a <= c <= b:
+        print(a, c, b)
+    elif b <= a <= c:
+        print(b, a, c)
+    elif b <= c <= a:
+        print(b, c, a)
+    elif c <= a <= b:
+        print(c, a, b)
+    else:
+        print(c, b, a)
+elif opcao == 2:
+    if a >= b >= c:
+        print(a, b, c)
+    elif a >= c >= b:
+        print(a, c, b)
+    elif b >= a >= c:
+        print(b, a, c)
+    elif b >= c >= a:
+        print(b, c, a)
+    elif c >= a >= b:
+        print(c, a, b)
+    else:
+        print(c, b, a)
+elif opcao == 3:
+    if a >= b and a >= c:
+        if b >= c:
+            print(b, a, c)
+        else:
+            print(c, a, b)
+    elif b >= a and b >= c:
+        if a >= c:
+            print(a, b, c)
+        else:
+            print(c, b, a)
+    else:
+        if a >= b:
+            print(a, c, b)
+        else:
+            print(b, c, a)
+else:
+    print("Opção inválida. Por favor, escolha 1, 2 ou 3.")
+
+
+# Exercício 28
 
 salario = float(input("Informe o salário: "))
 if salario <= 400:
@@ -338,3 +394,113 @@ elif salario > 1500 and salario <= 2000:
     print(f"Salário: {salario}\nReajuste: 5%\nNovo salário: {salario + (salario * 0.05)}")
 else:
     print("Sem reajuste!")
+
+# Exercício 29
+
+salario = float(input("Informe seu salário: "))
+if salario > 10000:
+    salario += * 0.55
+    print(f"Reajuste salarial: {salario}")
+else:
+    salario >= 10000 and salario <= 25000:
+    salario += * 0.20
+    print(f"Reajuste salarial: {salario}")
+
+# Exercício 30
+
+temperatura = float(input("Informe a temperatura: "))
+if temperatura <= 500:
+    print("Temperatura inválida!")
+elif temperatura < 700:
+    print("Aquecimento ligado em 100%")
+elif temperatura < 735:
+    print("Aquecimento ligado em 50%")
+elif temperatura >= 735:
+    print("Aquecimento desligado")
+elif temperatura > 780:
+    print("Superaquecimento")
+else:
+    print("Valor inválido!")
+
+# Exercício 31
+
+valor = int(input("Informe um valor de 1 a 4: "))
+num1 = float(input("Informe o primeiro valor: "))
+num2 = float(input("Informe o segundo valor: "))
+if valor == 0:
+    print(f"Soma: {num1 + num2}")
+elif valor == 1:
+    print(f"Subtração: {num1 - num2}")
+elif valor == 2:
+    print(f"Multiplicação: {num1 * num2}")
+elif valor == 3:
+    print(f"Divisão: {num1 / num2}")
+elif valor == 4:
+    print(f"Média: {(num1 + num2) / 2}")
+else:
+    print("Valor errado. Programa encerrado sem cálculos")
+
+# Exercício 32
+
+num1 = int(input("Informe o primeiro valor: "))
+num2 = int(input("Informe o segundo valor: "))
+if num1 % num2 == 1:
+    print(f"Soma: {num1 + num2 + (num1 % num2)}")
+elif num1 % num2 == 2:
+    if num1 % 2 == 0 and num2 % 2 == 0:
+        print("Os dois números são pares")
+    elif num1 % 2 == 0 and num2 % 2 != 0:
+        print("O primeiro número é par e o segundo é ímpar")
+    elif num1 % 2 != 0 and num2 % 2 == 0:
+        print("O primeiro número é ímpar e o segundo é par")
+    else:
+        print("Os dois números são ímpares")
+elif num1 % num2 == 3:
+    print(f"Multiplicação: {(num1 + num2) * num1}")
+elif num1 % num2 == 4:
+    if num2 != 0:
+        print(f"Divisão: {(num1 + num2) / num2}")
+    else:
+        print("O segundo número é igual a zero")
+else:
+    print(f"Quadrado do primeiro número: {num1 ** 2}\nQuadrado do segundo número: {num2 ** 2}")
+
+# Exercício 33
+
+homem1 = int(input("Informe a idade do primeiro homem: "))
+homem2 = int(input("Informe a idade do segundo homem: "))
+mulher1 = int(input("Informe a idade da primeira mulher: "))
+mulher2 = int(input("Informe a idade da segunda mulher: "))
+
+if homem1 > homem2:
+    homem_mais_velho = homem1
+    homem_mais_novo = homem2
+else:
+    homem_mais_velho = homem2
+    homem_mais_novo = homem1
+
+if mulher1 > mulher2:
+    mulher_mais_velha = mulher1
+    mulher_mais_nova = mulher2
+else:
+    mulher_mais_velha = mulher2
+    mulher_mais_nova = mulher1
+
+print(f"Soma das idades do homem mais velho com a mulher mais nova: {homem_mais_velho + mulher_mais_nova}")
+
+# Exercício 34
+
+num = int(input("Informe um número de 4 dígitos: "))
+if num >= 1000 and num <= 9999:
+    dezena = num // 100
+    unidade = num % 100
+    milhar = num // 100
+    centena = num % 100
+    soma = (dezena + unidade) + (milhar + centena)
+    quadrado = soma ** 2
+    if quadrado == num:
+        print(f"O quadrado do número {num} é {quadrado}")
+    else:
+        print(f"O quadrado do número {num} não é {quadrado}")
+else:
+    print("Número inválido!")
