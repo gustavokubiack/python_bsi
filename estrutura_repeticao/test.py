@@ -1,7 +1,10 @@
-"""Faça um algoritmo que calcule e escreva a soma da seguinte série de 100 termos: 1/ 1 + 1/2 + 1/3 + 1/4 + ... + 1/100"""
+diarias = int(input("Informe o número de diárias: "))
 
-count = []
-for num in range(1,101):
-    a = 1/num
-    count.append(a)
-print(sum(count))
+if diarias < 15:
+    taxa = 7.5
+elif diarias == 15:
+    taxa = 6.5
+else:
+    taxa = 5
+
+print(f"Valor total a pagar: {(diarias * 50) + (diarias * taxa)}")
