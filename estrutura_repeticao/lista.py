@@ -258,3 +258,65 @@ else:
 print(f"Valor total a pagar: {(diarias * 50) + (diarias * taxa)}")
 
 
+"""Em uma disputa de pingue-pongue os pontos são anotados como D, ponto para o
+jogador do lado direito, e E, ponto para o jogador do lado esquerdo da mesa. Faça um
+algoritmo que leia o código do ponto de cada jogada e determine o vencedor. A
+partida encerra quando:
+a) um dos jogadores chegar a 21 pontos e a diferença de pontos entre os jogadores for
+maior ou igual a dois;
+b) o jogador com mais de 21 pontos conseguir uma diferença de dois pontos sobre o
+adversário, caso a primeira condição não seja atendida."""
+
+esquerda = 0
+direita = 0
+while True:
+    ponto = input("Quem fez o ponto? D p/ direita e E p/ esquerda: ")
+    if ponto == "E":
+        esquerda += 1
+    else:
+        direita += 1
+    
+    if direita == 21 and esquerda <= 19:
+        print("Jogador da direita ganhou!")
+        break
+    elif esquerda == 21 and direita <= 19:
+        print("Jogador da esquerda venceu!")
+        break
+    elif direita >= 21 and esquerda - direita == 2:
+        print("Jogador da esquerda ganhou!")
+        break
+    elif esquerda >= 21 and direita - esquerda == 2:
+        print("Jogador da direita ganhou!")
+        break
+    
+"""Os regulamentos de uma competição de pesca impõem um limite no peso total de
+pesca de um dia. Faça um algoritmo que leia o limite diário (em quilogramas) e então
+leia o peso (em gramas) de cada peixe e escreva o peso total da pesca obtido até
+aquele ponto. Quando o limite diário for excedido escreva uma mensagem e encerre a
+execução do algoritmo. O algoritmo deve ainda apresentar ao usuário a seguinte
+mensagem: informar o peso de mais um peixe: s (SIM) / n (NÃO)? antes de prosseguir
+com a entrada de dados."""
+
+limite = float(input("Informe o limite de peso diário em kg: "))
+total_kg = 0
+while True:
+    peso_peixe = float(input("Informe o peso do peixe em grama: "))
+    total_kg += (peso_peixe / 1000) 
+    print(f"Total de kg de peixes: {total_kg}")
+    if total_kg > limite:
+        print("Limite diário excedido!")
+        break
+    msg = input("Deseja prosseguir? S p/ sim e N p/ não: ")
+    if msg == "S":
+        continue
+    else:
+        break
+
+"""Um determinado material radioativo perde metade de sua massa a cada 50 segundos.
+Dada a sua massa inicial em Kg, faça um algoritmo que determine o tempo necessário
+para que essa massa se torne menor que 0,5 gramas. Escreva a massa inicial, a massa
+final e o tempo."""
+
+
+
+

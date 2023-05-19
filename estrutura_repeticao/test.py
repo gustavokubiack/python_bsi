@@ -1,10 +1,7 @@
-diarias = int(input("Informe o número de diárias: "))
-
-if diarias < 15:
-    taxa = 7.5
-elif diarias == 15:
-    taxa = 6.5
-else:
-    taxa = 5
-
-print(f"Valor total a pagar: {(diarias * 50) + (diarias * taxa)}")
+massa_inicial = float(input("Informe a massa inicial em Kg de um material radioativo: "))
+massa_inicial = massa_inicial * 1000
+tempo = 0
+massa_final = None
+while massa_inicial > 0.5:
+    massa_final = massa_inicial / 2
+    tempo += 50
