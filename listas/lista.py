@@ -39,6 +39,17 @@ numeros = [float(input("Informe um valor: ")) for _ in range(10)]
 numeros.reverse()
 print(numeros)
 
+# Exercício 8
+
+vetor1 = [float(input("Informe o valor do primeiro vetor: ")) for _ in range(10)]
+vetor2 = [float(input("Informe o valor do segundo vetor: ")) for _ in range(10)]
+vetor3 = [vetor1[i] + vetor2[i] for i in range(len(vetor1))]
+
+print(vetor1)
+print(vetor2)
+print(vetor3)
+
+
 # Exercício 9
 
 a = [float(input("Informe um valor: ")) for _ in range(5)]
@@ -46,6 +57,11 @@ b = [float(input("Informe um valor: ")) for _ in range(5)]
 c = [num for par in zip(a, b) for num in par]
 print(c)
 
+# Exercício 10
+
+vetor = [float(input("Informe um valor do vetor: ")) for _ in range(10)]
+soma = [vetor[i] for i in vetor]
+print(soma)
 
 # Exercício 11
 
@@ -59,6 +75,8 @@ conjunto = [float(input("Informe um valor: ")) for _ in range(10)]
 resultado = [num * 3 if num % 2 == 0 else num / 2 for num in conjunto]
 print(resultado)
 
+# Exercício 12
+
 # Exercício 13
 
 frase = float(input("Informe uma frase: "))
@@ -67,3 +85,11 @@ if len(frase) > 50:
 branco = frase.count("")
 letra_a = frase.count("A")
 print(f"Existem {branco} espaços em branco e {letra_a} aparece a letra A")
+
+# Exercício 14
+
+# Exercício 15
+
+# Exercício 16
+
+# Exercício 17
