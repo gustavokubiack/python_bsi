@@ -88,8 +88,34 @@ print(f"Existem {branco} espaços em branco e {letra_a} aparece a letra A")
 
 # Exercício 14
 
+mercadorias = [mercadoria for mercadoria in range(10)]
+quantidades = [quantidade for quantidade in range(10)]
+faturamento = [mercadorias[elemento] * quantidades[elemento] for elemento in range(len(mercadorias))]
+print(faturamento)
+
+
 # Exercício 15
 
+import random
+
+vet = [random.randint(1, 50) for _ in range(20)]
+vet.sort()
+print(vet)
+
 # Exercício 16
+
+import random
+import string
+
+alfabeto = string.ascii_uppercase
+vet = [random.choice(alfabeto) for _ in range(20)]
+indices = [indice for indice in enumerate(vet) if indice == "K"]
+if "K" not in vet:
+    print("Não existe a letra K no vetor")
+print(f"O vetor é {vet} e os indices são {indices}")
+
+
+
+
 
 # Exercício 17

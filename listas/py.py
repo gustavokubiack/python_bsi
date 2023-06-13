@@ -1,17 +1,26 @@
-"""a) leia 100 valores numéricos e os armazene numa variável composta unidimensional A;
-b) calcule e escreva:
+import random
+import string
 
-, onde ai é o i-ésimo valor armazenado na variável A;
+alfabeto = string.ascii_uppercase
+vet = sorted([random.choice(alfabeto) for _ in range(128)])
+left = 0
+right = len(vet) - 1
+found = False
 
-c) calcule e escreva quantos termos da série acima têm o numerador menor do que o
-denominador."""
+while left <= right:
+    mid = (left + right) // 2
+    if vet[mid] == "K":
+        found = True
+        break
+    elif vet[mid] < "K":
+        left = mid + 1
+    else:
+        right = mid - 1
 
-# a)
+if found:
+    print(f"O vetor é {vet}")
+    print(f"Índice: {mid}")
+else:
+    print(f"Não existe a letra K no vetor")
+    print(f"Vetor: {vet}")
 
-vetor = [float(input("Informe o valor do vetor: ")) for i in range(5)]
-soma = [i / vetor[i] for i in range(len(vetor))]
-print(soma)
-print(sum(soma))
-
-menor = [soma[i] for i in range(len(soma)) if soma[i] < vetor[i]]
-print(len(menor))
