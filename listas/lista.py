@@ -65,17 +65,22 @@ print(soma)
 
 # Exercício 11
 
-"""11) Faça um algoritmo que leia um conjunto de 10 elementos reais e os coloque em um vetor.
-Construa um segundo vetor formado da seguinte maneira:
-• Os elementos de ordem par são os correspondentes do primeiro vetor multiplicados por 3.
-• Os elementos de ordem ímpar são os correspondentes do primeiro vetor divididos por 2.
-• Imprima os dois vetores."""
-
 conjunto = [float(input("Informe um valor: ")) for _ in range(10)]
 resultado = [num * 3 if num % 2 == 0 else num / 2 for num in conjunto]
 print(resultado)
 
 # Exercício 12
+
+import random
+
+a = [random.randint(0, 100) for i, _ in enumerate(range(10))]
+print(a)
+s = 0
+for i in range(10):
+    s += (a[i] - a[19-i])**2
+print(f'Lista: {a}')
+print(f'S = {s}')
+
 
 # Exercício 13
 
@@ -88,8 +93,48 @@ print(f"Existem {branco} espaços em branco e {letra_a} aparece a letra A")
 
 # Exercício 14
 
+mercadorias = [mercadoria for mercadoria in range(10)]
+precos = [preco for preco in range(10)]
+faturamento = [mercadorias[elemento] * precos[elemento] for elemento in range(len(mercadorias))]
+print(faturamento)
+
 # Exercício 15
+
+import random 
+
+vet = [random.radint(1,100) for _ in range(20)]
+vet.sort()
+print(vet)
 
 # Exercício 16
 
+import string
+alfabeto = string.ascii_uppercase
+vetor = [random.choice(alfabeto) for _ in range(20)]
+indices = [indice for indice, elemento in enumerate(vetor) if elemento == "K"]
+if "K" not in vetor:
+    print(f"CHAVE NÃO ENCONTRADA\nVetor: {vetor}")
+else:
+    print(f"O vetor é {vetor}\nPosição da chave: {indices}")
+
 # Exercício 17
+
+alfabeto = string.ascii_uppercase
+vetor = [random.choice(alfabeto) for _ in range(20)]
+vetor.sort()
+print(vetor)
+chave = input("Informe a chave: ")
+inicio = 0
+fim = len(vetor) - 1
+meio = (inicio + fim) // 2
+while inicio <= fim and vetor[meio] != chave:
+    if chave < vetor[meio]:
+        fim = meio - 1
+    else:
+        inicio = meio + 1
+    meio = (inicio + fim) // 2
+if vetor[meio] == chave:
+    print(f"Chave encontrada na posição {meio}")
+else:
+    print("Chave não encontrada")
+
