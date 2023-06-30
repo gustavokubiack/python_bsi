@@ -65,12 +65,6 @@ print(soma)
 
 # Exercício 11
 
-"""11) Faça um algoritmo que leia um conjunto de 10 elementos reais e os coloque em um vetor.
-Construa um segundo vetor formado da seguinte maneira:
-• Os elementos de ordem par são os correspondentes do primeiro vetor multiplicados por 3.
-• Os elementos de ordem ímpar são os correspondentes do primeiro vetor divididos por 2.
-• Imprima os dois vetores."""
-
 conjunto = [float(input("Informe um valor: ")) for _ in range(10)]
 resultado = [num * 3 if num % 2 == 0 else num / 2 for num in conjunto]
 print(resultado)
@@ -115,7 +109,30 @@ if "K" not in vet:
 print(f"O vetor é {vet} e os indices são {indices}")
 
 
-
-
-
 # Exercício 17
+
+import random
+import string
+
+alfabeto = string.ascii_uppercase
+vet = sorted([random.choice(alfabeto) for _ in range(128)])
+left = 0
+right = len(vet) - 1
+found = False
+
+while left <= right:
+    mid = (left + right) // 2
+    if vet[mid] == "K":
+        found = True
+        break
+    elif vet[mid] < "K":
+        left = mid + 1
+    else:
+        right = mid - 1
+
+if found:
+    print(f"O vetor é {vet}")
+    print(f"Índice: {mid}")
+else:
+    print(f"Não existe a letra K no vetor")
+    print(f"Vetor: {vet}")
