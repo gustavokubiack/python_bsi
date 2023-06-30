@@ -94,6 +94,18 @@ print(f"Existem {branco} espaços em branco e {letra_a} aparece a letra A")
 # Exercício 14
 
 mercadorias = [mercadoria for mercadoria in range(10)]
+<<<<<<< HEAD
+quantidades = [quantidade for quantidade in range(10)]
+faturamento = [mercadorias[elemento] * quantidades[elemento] for elemento in range(len(mercadorias))]
+print(faturamento)
+
+
+# Exercício 15
+
+import random
+
+vet = [random.randint(1, 50) for _ in range(20)]
+=======
 precos = [preco for preco in range(10)]
 faturamento = [mercadorias[elemento] * precos[elemento] for elemento in range(len(mercadorias))]
 print(faturamento)
@@ -103,11 +115,52 @@ print(faturamento)
 import random 
 
 vet = [random.radint(1,100) for _ in range(20)]
+>>>>>>> 5f561873bf5b4f9eecbea1a3c76c8f88984a8933
 vet.sort()
 print(vet)
 
 # Exercício 16
 
+<<<<<<< HEAD
+import random
+import string
+
+alfabeto = string.ascii_uppercase
+vet = [random.choice(alfabeto) for _ in range(20)]
+indices = [indice for indice in enumerate(vet) if indice == "K"]
+if "K" not in vet:
+    print("Não existe a letra K no vetor")
+print(f"O vetor é {vet} e os indices são {indices}")
+
+
+# Exercício 17
+
+import random
+import string
+
+alfabeto = string.ascii_uppercase
+vet = sorted([random.choice(alfabeto) for _ in range(128)])
+left = 0
+right = len(vet) - 1
+found = False
+
+while left <= right:
+    mid = (left + right) // 2
+    if vet[mid] == "K":
+        found = True
+        break
+    elif vet[mid] < "K":
+        left = mid + 1
+    else:
+        right = mid - 1
+
+if found:
+    print(f"O vetor é {vet}")
+    print(f"Índice: {mid}")
+else:
+    print(f"Não existe a letra K no vetor")
+    print(f"Vetor: {vet}")
+=======
 import string
 alfabeto = string.ascii_uppercase
 vetor = [random.choice(alfabeto) for _ in range(20)]
@@ -138,3 +191,4 @@ if vetor[meio] == chave:
 else:
     print("Chave não encontrada")
 
+>>>>>>> 5f561873bf5b4f9eecbea1a3c76c8f88984a8933
