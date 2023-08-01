@@ -11,29 +11,25 @@ class FindTheWord:
         self.level = input("Informe a dificuldade: ")
         self.category = input("Informe a categoria: ")
 
-    def dicts(self):
+    def dicts(self, num_items):
         faker = Faker("pt-br")
-        countries = [faker.country() for _ in range(5)]
-        names = [faker.first_name() for _ in range(5)]
-        colors = [faker.color_name() for _ in range(5)]
+        countries = [faker.country() for _ in range(num_items)]
+        names = [faker.first_name() for _ in range(num_items)]
+        colors = [faker.color_name() for _ in range(num_items)]
         data = {
-            "country": countries,
-            "name": names,
-            "color": colors,
+            "Países": countries,
+            "Nomes": names,
+            "Cores": colors,
         }
         return data
 
     def choice_level(self):
-        try:
-            if self.level == "Fácil":
-                print("fácil")
-            elif self.level == "Médio":
-                print("médio")
-            elif self.level == "Díficil":
-                print("díficil")
-            else:
-                raise Exception(
-                    "Erro! As opções de dificuldade são: 'Fácil', 'Médio' e 'Difícil'"
-                )
-        except Exception as e:
-            print(e)
+        data = self.dicts(20)
+        if self.level == "Fácil":
+            return data[self.category][:5]
+        elif self.level == "Médio":
+            return data[self.category][:10]
+        elif self.level == "Díficil":
+            return data[self.category][:20]
+        else:
+            print("Erro! As opções de dificuldade são: 'Fácil', 'Médio' e 'Difícil'")
