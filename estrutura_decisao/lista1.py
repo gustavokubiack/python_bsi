@@ -4,9 +4,9 @@ num = float(input("Informe o número: "))
 if num > 0:
     print(f"O número {num} é positivo")
 elif num < 0:
-    print(f"O número {num} é negativo") 
+    print(f"O número {num} é negativo")
 else:
-    print(f"O número {num} é igual que 0") 
+    print(f"O número {num} é igual que 0")
 
 # Exercício 2
 
@@ -19,7 +19,7 @@ else:
 # Exercício 3
 
 num1 = float(input("Informe o primeiro número: "))
-num2= float(input("Informe o segundo número: "))
+num2 = float(input("Informe o segundo número: "))
 
 if num1 + num2 > 10:
     print("É maior que 10")
@@ -42,7 +42,7 @@ num = float(input("Informe o número: "))
 if num > 20 and num < 90:
     print(f"O {num} está entre 20 e 90.")
 else:
-    print(f'O {num} não está entre 20 e 90.')
+    print(f"O {num} não está entre 20 e 90.")
 
 # Exercício 6
 
@@ -50,7 +50,7 @@ ano_atual = int(input("Informe o ano atual: "))
 ano_nascimento = int(input("Informe seu ano de nascimento: "))
 
 if ano_atual - ano_nascimento >= 16:
-    print('Você pode votar!')
+    print("Você pode votar!")
 else:
     print("Você não pode votar")
 
@@ -59,7 +59,7 @@ else:
 ano_nascimento = int(input("Informe seu ano de nascimento: "))
 if ano_nascimento > 0 and ano_nascimento <= 2023:
     print(f"Ano válido! Sua idade é: {2023 - ano_nascimento}")
-else: 
+else:
     print("Ano inválido!")
 
 # Exercício 8
@@ -68,7 +68,7 @@ if idade < 18:
     print("Menor de idade!")
 elif idade >= 18 and idade <= 65:
     print("Maior de idade!")
-else: 
+else:
     print("Acima de 65 anos!")
 
 # Exercício 9
@@ -134,7 +134,7 @@ if gol_1 > gol_2:
     print(f"{time1} venceu")
 elif gol_2 > gol_1:
     print(f"{time2} venceu")
-else: 
+else:
     print("O jogo terminou empatado!")
 
 # Exercício 14
@@ -246,7 +246,7 @@ elif num2 > num1 and num2 > num3:
 else:
     print(f"A soma de {num3} e {num2} é {num3 + num2}\n")
 
-# Exercício 22 
+# Exercício 22
 
 # Ler três valores
 valor1 = int(input("Digite o primeiro valor: "))
@@ -266,7 +266,7 @@ if media <= 10 and media >= 9:
     print(f"APROVADO!\nMédia: {media}\nConceito A")
 elif media >= 7.5 and media <= 9:
     print(f"APROVADO!\nMédia: {media}\nConceito B")
-elif media >= 6.0  and media <= 7.5:
+elif media >= 6.0 and media <= 7.5:
     print(f"APROVADO!\nMédia: {media}\nConceito C")
 elif media >= 4.0 and media <= 6.0:
     print(f"REPROADO!\nMédia: {media}\nConceito D")
@@ -277,7 +277,11 @@ else:
 
 num1 = float(input("Informe o primeiro valor: "))
 num2 = float(input("Informe o segundo valor: "))
-operacao = int(input("Informe a operação. 1 – Adição, 2 – Subtração, 3 – Multiplicação e 4 – Divisão: "))
+operacao = int(
+    input(
+        "Informe a operação. 1 – Adição, 2 – Subtração, 3 – Multiplicação e 4 – Divisão: "
+    )
+)
 
 if operacao == 1:
     print(f"Adição: {num1 + num2}")
@@ -298,7 +302,7 @@ a = float(input("Informe o valor de a: "))
 b = float(input("Informe o valor de b: "))
 c = float(input("Informe o valor de c: "))
 
-delta = (b ** 2) - 4 * a * c
+delta = (b**2) - 4 * a * c
 print(delta)
 if delta < 0:
     print("Valor inválido!")
@@ -310,7 +314,7 @@ else:
     print(x1)
     x2 = (-b - (math.sqrt(delta))) / (2 * a)
     print(f"x1: {x1} e x2: {x2}")
-    
+
 # Exercício 26 (FAZER)
 
 a = float(input("Informe o valor de a: "))
@@ -326,9 +330,13 @@ if a < b + c and b < a + c and c < a + b:
 else:
     print("Os valores lidos não formam um triângulo")
 
-# Exercício 27 
+# Exercício 27
 
-opcao = int(input("Digite a opção desejada (1 para ordem crescente, 2 para ordem decrescente ou 3 para o maior valor ficar entre os outros dois): "))
+opcao = int(
+    input(
+        "Digite a opção desejada (1 para ordem crescente, 2 para ordem decrescente ou 3 para o maior valor ficar entre os outros dois): "
+    )
+)
 a = float(input("Digite o valor de a: "))
 b = float(input("Digite o valor de b: "))
 c = float(input("Digite o valor de c: "))
@@ -383,28 +391,27 @@ else:
 
 salario = float(input("Informe o salário: "))
 if salario <= 400:
-    print(f"Salário: {salario}\nReajuste: 15%\nNovo salário: {salario + (salario * 0.15)}")
+    print(
+        f"Salário: {salario}\nReajuste: 15%\nNovo salário: {salario + (salario * 0.15)}"
+    )
 elif salario > 400 and salario <= 700:
-    print(f"Salário: {salario}\nReajuste: 12%\nNovo salário: {salario + (salario * 0.12)}")
+    print(
+        f"Salário: {salario}\nReajuste: 12%\nNovo salário: {salario + (salario * 0.12)}"
+    )
 elif salario > 700 and salario <= 1000:
-    print(f"Salário: {salario}\nReajuste: 10%\nNovo salário: {salario + (salario * 0.10)}")
+    print(
+        f"Salário: {salario}\nReajuste: 10%\nNovo salário: {salario + (salario * 0.10)}"
+    )
 elif salario > 1000 and salario <= 1500:
-    print(f"Salário: {salario}\nReajuste: 7%\nNovo salário: {salario + (salario * 0.07)}")
+    print(
+        f"Salário: {salario}\nReajuste: 7%\nNovo salário: {salario + (salario * 0.07)}"
+    )
 elif salario > 1500 and salario <= 2000:
-    print(f"Salário: {salario}\nReajuste: 5%\nNovo salário: {salario + (salario * 0.05)}")
+    print(
+        f"Salário: {salario}\nReajuste: 5%\nNovo salário: {salario + (salario * 0.05)}"
+    )
 else:
     print("Sem reajuste!")
-
-# Exercício 29
-
-salario = float(input("Informe seu salário: "))
-if salario > 10000:
-    salario += * 0.55
-    print(f"Reajuste salarial: {salario}")
-else:
-    salario >= 10000 and salario <= 25000:
-    salario += * 0.20
-    print(f"Reajuste salarial: {salario}")
 
 # Exercício 30
 
@@ -463,7 +470,9 @@ elif num1 % num2 == 4:
     else:
         print("O segundo número é igual a zero")
 else:
-    print(f"Quadrado do primeiro número: {num1 ** 2}\nQuadrado do segundo número: {num2 ** 2}")
+    print(
+        f"Quadrado do primeiro número: {num1 ** 2}\nQuadrado do segundo número: {num2 ** 2}"
+    )
 
 # Exercício 33
 
@@ -486,7 +495,9 @@ else:
     mulher_mais_velha = mulher2
     mulher_mais_nova = mulher1
 
-print(f"Soma das idades do homem mais velho com a mulher mais nova: {homem_mais_velho + mulher_mais_nova}")
+print(
+    f"Soma das idades do homem mais velho com a mulher mais nova: {homem_mais_velho + mulher_mais_nova}"
+)
 
 # Exercício 34
 
@@ -497,7 +508,7 @@ if num >= 1000 and num <= 9999:
     milhar = num // 100
     centena = num % 100
     soma = (dezena + unidade) + (milhar + centena)
-    quadrado = soma ** 2
+    quadrado = soma**2
     if quadrado == num:
         print(f"O quadrado do número {num} é {quadrado}")
     else:

@@ -4,7 +4,7 @@ import math
 
 raio = float(input("Informe o raio: "))
 altura = float(input("Informe a altura: "))
-volume = math.pi * raio ** 2 * altura
+volume = math.pi * raio**2 * altura
 
 print(f"O volume é: {volume}")
 
@@ -25,7 +25,7 @@ y1 = float(input("Informe a coordenada y1: "))
 x2 = float(input("Informe a coordenada x2: "))
 y2 = float(input("Informe a coordenada y2: "))
 
-d = math.sqrt(((x2 - x1)** 2) + ((y2 - y1) ** 2))
+d = math.sqrt(((x2 - x1) ** 2) + ((y2 - y1) ** 2))
 
 print(f"Distância: {d}")
 
@@ -39,8 +39,8 @@ e = float(input("Informe o valor de e: "))
 f = float(input("Informe o valor de f: "))
 
 
-x = (c * e) - (b *f) / (a * e) - (b *d)
-y = (a * f) - (c * d) / (a * e) - (b *d)
+x = (c * e) - (b * f) / (a * e) - (b * d)
+y = (a * f) - (c * d) / (a * e) - (b * d)
 
 print(f"Valor de x: {x}\nValor de y: {y}")
 

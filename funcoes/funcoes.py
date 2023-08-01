@@ -1,7 +1,8 @@
 import math
 
+
 def converter_celcius(f):
-    return round((f - 32) * 5 / 9, 2) 
+    return round((f - 32) * 5 / 9, 2)
 
 
 def calcular_hipotenusa(a, b):
@@ -45,47 +46,47 @@ def soma_intervalo(num1, num2):
 def mes_correspondente(mes):
     match mes:
         case 1:
-            return 'Janeiro'
+            return "Janeiro"
         case 2:
-            return 'Fevereiro'
+            return "Fevereiro"
         case 3:
-            return 'Março'            
+            return "Março"
         case 4:
-            return 'Abril'
+            return "Abril"
         case 5:
-            return 'Maio'
+            return "Maio"
         case 6:
-            return 'Junho'
+            return "Junho"
         case 7:
-            return 'Julho'            
+            return "Julho"
         case 8:
-            return 'Agosto'
+            return "Agosto"
         case 9:
-            return 'Setembro'
+            return "Setembro"
         case 10:
-            return 'Outubro'
+            return "Outubro"
         case 11:
-            return 'Novembro'            
+            return "Novembro"
         case 12:
-            return 'Dezembro'
+            return "Dezembro"
 
 
 def dia_correspondente(dia):
     match dia:
         case 1:
-            return 'DOM'
+            return "DOM"
         case 2:
-            return 'SEG'
+            return "SEG"
         case 3:
-            return 'TER'
-        case 4: 
-            return 'QUA'
+            return "TER"
+        case 4:
+            return "QUA"
         case 5:
-            return 'QUI'
+            return "QUI"
         case 6:
-            return 'SEX'
+            return "SEX"
         case 7:
-            return 'SAB'
+            return "SAB"
 
 
 def verifica_divisivel(x, y):
@@ -106,7 +107,7 @@ def converte_pol_cm(pol):
     return pol * 2.54
 
 
-# Testes 
+# Testes
 
 # Exercício 1
 
