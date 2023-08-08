@@ -21,7 +21,7 @@ par ou ímpar."""
 
 for num in range(16):
     num = int(input("Digite um número: "))
-    if num % 2 == 0: 
+    if num % 2 == 0:
         print(f"O número {num} é par.")
     else:
         print(f"O número {num} é ímpar.")
@@ -67,7 +67,7 @@ Considere que a cada comando de escrita a caneta gasta 2% da tinta que possui.""
 quant_tinta = int(input("Informe a quantidade de tinta: "))
 while quant_tinta != 0:
     quant_tinta += -2
-    print("Tá escrevendo...")    
+    print("Tá escrevendo...")
 
 """Faça um algoritmo que leia n pares de valores, sendo o primeiro valor o número de
 inscrição do atleta e o segundo a altura (em cm) do atleta. Escreva:
@@ -104,15 +104,15 @@ print(fatorial)
 """Faça um algoritmo que calcule e escreva a soma da seguinte série de 100 termos:"""
 
 count = []
-for num in range(1,101):
+for num in range(1, 101):
     count.append(num)
 print(sum(count))
 
 
 """Faça um algoritmo que calcule e escreva a soma da seguinte série de 100 termos:"""
 count = []
-for num in range(1,101):
-    a = 1/num
+for num in range(1, 101):
+    a = 1 / num
     count.append(a)
 print(sum(count))
 
@@ -121,8 +121,8 @@ S = 1/N + 2/N-1 + 3/N-2 + ... + N/1, semdo N fornecido pelo usuário."""
 
 n = int(input("Informe um valor: "))
 count = []
-for num in range(1, n+1):
-    a = num/(n+1-num)
+for num in range(1, n + 1):
+    a = num / (n + 1 - num)
     count.append(a)
 print(sum(count))
 
@@ -192,7 +192,7 @@ altura_mulheres = []
 for pessoa in range(3):
     altura = float(input("Informe a altura: "))
     sexo = input("Informe o sexo: ")
-    if sexo == "F" or sexo == 'f':
+    if sexo == "F" or sexo == "f":
         altura_mulheres.append(altura)
     alturas_turma.append(altura)
 
@@ -275,7 +275,7 @@ while True:
         esquerda += 1
     else:
         direita += 1
-    
+
     if direita == 21 and esquerda <= 19:
         print("Jogador da direita ganhou!")
         break
@@ -288,7 +288,7 @@ while True:
     elif esquerda >= 21 and direita - esquerda == 2:
         print("Jogador da direita ganhou!")
         break
-    
+
 """Os regulamentos de uma competição de pesca impõem um limite no peso total de
 pesca de um dia. Faça um algoritmo que leia o limite diário (em quilogramas) e então
 leia o peso (em gramas) de cada peixe e escreva o peso total da pesca obtido até
@@ -301,7 +301,7 @@ limite = float(input("Informe o limite de peso diário em kg: "))
 total_kg = 0
 while True:
     peso_peixe = float(input("Informe o peso do peixe em grama: "))
-    total_kg += (peso_peixe / 1000) 
+    total_kg += peso_peixe / 1000
     print(f"Total de kg de peixes: {total_kg}")
     if total_kg > limite:
         print("Limite diário excedido!")
@@ -316,7 +316,3 @@ while True:
 Dada a sua massa inicial em Kg, faça um algoritmo que determine o tempo necessário
 para que essa massa se torne menor que 0,5 gramas. Escreva a massa inicial, a massa
 final e o tempo."""
-
-
-
-

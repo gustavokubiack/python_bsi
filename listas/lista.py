@@ -4,7 +4,7 @@ print(vetor)
 
 # Exercício 2
 notas = [float(input("Informe a nota: ")) for _ in range(10)]
-print(f"Média: {sum(notas)/len(notas)}") 
+print(f"Média: {sum(notas)/len(notas)}")
 
 # Exercício 3
 notas = [float(input("Informe a nota: ")) for _ in range(10)]
@@ -18,8 +18,10 @@ abaixo_media = [nota for nota in notas if nota < 7]
 notas.sort()
 menor_nota = notas[0]
 maior_nota = notas[-1]
-media = (sum(notas) / len(notas))
-print(f"Menor nota: {menor_nota}\nMaior nota: {maior_nota}\nMédia: {media}\nQuantidade de notas abaixo de 7: {len(abaixo_media)}")
+media = sum(notas) / len(notas)
+print(
+    f"Menor nota: {menor_nota}\nMaior nota: {maior_nota}\nMédia: {media}\nQuantidade de notas abaixo de 7: {len(abaixo_media)}"
+)
 
 # Exercício 5
 
@@ -77,9 +79,9 @@ a = [random.randint(0, 100) for i, _ in enumerate(range(10))]
 print(a)
 s = 0
 for i in range(10):
-    s += (a[i] - a[19-i])**2
-print(f'Lista: {a}')
-print(f'S = {s}')
+    s += (a[i] - a[19 - i]) ** 2
+print(f"Lista: {a}")
+print(f"S = {s}")
 
 
 # Exercício 13
@@ -94,9 +96,11 @@ print(f"Existem {branco} espaços em branco e {letra_a} aparece a letra A")
 # Exercício 14
 
 mercadorias = [mercadoria for mercadoria in range(10)]
-<<<<<<< HEAD
 quantidades = [quantidade for quantidade in range(10)]
-faturamento = [mercadorias[elemento] * quantidades[elemento] for elemento in range(len(mercadorias))]
+faturamento = [
+    mercadorias[elemento] * quantidades[elemento]
+    for elemento in range(len(mercadorias))
+]
 print(faturamento)
 
 
@@ -105,23 +109,11 @@ print(faturamento)
 import random
 
 vet = [random.randint(1, 50) for _ in range(20)]
-=======
-precos = [preco for preco in range(10)]
-faturamento = [mercadorias[elemento] * precos[elemento] for elemento in range(len(mercadorias))]
-print(faturamento)
-
-# Exercício 15
-
-import random 
-
-vet = [random.radint(1,100) for _ in range(20)]
->>>>>>> 5f561873bf5b4f9eecbea1a3c76c8f88984a8933
 vet.sort()
 print(vet)
 
 # Exercício 16
 
-<<<<<<< HEAD
 import random
 import string
 
@@ -160,35 +152,3 @@ if found:
 else:
     print(f"Não existe a letra K no vetor")
     print(f"Vetor: {vet}")
-=======
-import string
-alfabeto = string.ascii_uppercase
-vetor = [random.choice(alfabeto) for _ in range(20)]
-indices = [indice for indice, elemento in enumerate(vetor) if elemento == "K"]
-if "K" not in vetor:
-    print(f"CHAVE NÃO ENCONTRADA\nVetor: {vetor}")
-else:
-    print(f"O vetor é {vetor}\nPosição da chave: {indices}")
-
-# Exercício 17
-
-alfabeto = string.ascii_uppercase
-vetor = [random.choice(alfabeto) for _ in range(20)]
-vetor.sort()
-print(vetor)
-chave = input("Informe a chave: ")
-inicio = 0
-fim = len(vetor) - 1
-meio = (inicio + fim) // 2
-while inicio <= fim and vetor[meio] != chave:
-    if chave < vetor[meio]:
-        fim = meio - 1
-    else:
-        inicio = meio + 1
-    meio = (inicio + fim) // 2
-if vetor[meio] == chave:
-    print(f"Chave encontrada na posição {meio}")
-else:
-    print("Chave não encontrada")
-
->>>>>>> 5f561873bf5b4f9eecbea1a3c76c8f88984a8933

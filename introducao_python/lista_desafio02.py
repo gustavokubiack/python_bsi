@@ -44,7 +44,7 @@ num_real = float(input("Informe um número real: "))
 
 produto = (num1_int * 2) + (num2_int / 2)
 soma = (num1_int * 3) + num_real
-cubo_real = num_real ** 3
+cubo_real = num_real**3
 
 print(f"Produto: {produto}\nSoma: {soma}\nCubo: {cubo_real}")
 
@@ -74,7 +74,9 @@ inss = salario_bruto * 0.08
 sindicato = salario_bruto * 0.05
 sal_liquido = salario_bruto - (imposto_renda + inss + sindicato)
 
-print(f"Salário bruto: {salario_bruto}\nImposto de renda: {imposto_renda}\nINSS:{inss}\nSindicato: {sindicato}\nSalário líquido: {sal_liquido}")
+print(
+    f"Salário bruto: {salario_bruto}\nImposto de renda: {imposto_renda}\nINSS:{inss}\nSindicato: {sindicato}\nSalário líquido: {sal_liquido}"
+)
 
 """
 Faça um programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área
@@ -109,8 +111,12 @@ galoes = litros / 3.6
 preco_latas = latas * 80
 preco_galoes = galoes * 25
 
-print(f"Você precisará de {latas} latas de tinta e o preço total será de R$ {preco_latas}")
-print(f"Você precisará de {galoes} galões de tinta e o preço total será de R$ {preco_galoes}")
+print(
+    f"Você precisará de {latas} latas de tinta e o preço total será de R$ {preco_latas}"
+)
+print(
+    f"Você precisará de {galoes} galões de tinta e o preço total será de R$ {preco_galoes}"
+)
 
 
 """

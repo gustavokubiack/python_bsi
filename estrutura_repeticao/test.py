@@ -1,4 +1,6 @@
-massa_inicial = float(input("Informe a massa inicial em Kg de um material radioativo: "))
+massa_inicial = float(
+    input("Informe a massa inicial em Kg de um material radioativo: ")
+)
 massa_inicial = massa_inicial * 1000
 tempo = 0
 massa_final = None

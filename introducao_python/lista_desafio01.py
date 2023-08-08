@@ -14,7 +14,7 @@ filhos = float(input("Informe a quantidade de filhos: "))
 
 print(f"{nome} tem {filhos} filhos")
 
-# Ler base e altura de um retângulo 
+# Ler base e altura de um retângulo
 
 base = float(input("Informe a base de um retângulo: "))
 altura = float(input("Informe a altura de um retângulo: "))
@@ -28,7 +28,7 @@ print(f"Perímetro: {perimetro}\nÁrea: {area}")
 
 lado = float(input("Informe o lado do cubo: "))
 area = 6 * (lado * lado)
-volume = lado ** 3
+volume = lado**3
 
 print(f"Aŕea: {area}\nVolume: {volume}")
 
@@ -54,7 +54,7 @@ print(f"Área do Triângulo: {area}")
 import math
 
 raio = float(input("Informe o raio de uma circunfêrencia: "))
-perimetro = round(2 * raio *  math.pi,2)
-area = round(math.pi * raio ** 2,2)
+perimetro = round(2 * raio * math.pi, 2)
+area = round(math.pi * raio**2, 2)
 
 print(f"Perímetro: {perimetro}\nÁrea: {area}")
