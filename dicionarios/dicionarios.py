@@ -82,15 +82,19 @@ print(older_person(dict_people))
 
 # Exercício 9
 
+
 def newer_person(info_people):
     newer = [age for name, age in info_people.items()]
     return min(newer)
 
+
 print(newer_person(dict_people))
 # Exercício 10
+
 
 def name_j(info_people):
     names = [name for name, age in info_people.items() if name.startswith("J")]
     return names
+
 
 print(name_j(dict_people))
