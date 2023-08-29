@@ -15,23 +15,57 @@ with open("texto.txt") as f:
     count = 0
     for line in f.readlines():
         count += 1
-    print(count)
+    print(f"O número de linhas é: {count}")
 
 # Exercício 4
 
 with open("texto.txt") as f:
-    texto = f.read()
+    text = f.read()
 with open("copia.txt", "w") as f:
-    f.write(texto)
+    f.write(text)
 
 # Exercício 5
 
 with open("texto.txt") as f:
-    texto = f.read()
+    text = f.read()
 with open("copia.txt") as f:
-    copia = f.read()
+    copy = f.read()
 with open("combinado.txt", "w") as f:
-    texto += "\n"
-    f.write(texto)
-    f.write(copia)
+    text += "\n"
+    f.write(text)
+    f.write(copy)
 
+# Exercício 6
+
+with open("texto.txt") as f:
+    lines = [line for line in f.readlines()]
+    words = [word for line in lines for word in line.split()]
+    print(f"A quantidade de palavras é: {len(words)}")
+
+# Exercício 7
+with open("texto.txt") as f:
+    text = f.read()
+    phrase = text.replace("mundo", "Python")
+with open("modificado.txt", "w") as f:
+    f.write(phrase)
+
+# Exercício 8
+with open("texto.txt", "a") as f:
+    phrase = "\nIsso é incrível!"
+    f.write(phrase)
+
+# Exercício 9
+
+with open("texto.txt") as f:
+    lines = [line for line in f.readlines()]
+    words = [word for line in lines for word in line.split()]
+    count = 0
+    for letter in words:
+        count += len(letter)
+    print(f"A quantidade de letras no texto.txt é: {count}")
+
+
+# Exercício 10
+with open("numeros.txt", "w") as f:
+    for linha in range(0, 101):
+        f.write(f"{linha}\n")
