@@ -67,5 +67,13 @@ with open("texto.txt") as f:
 
 # Exercício 10
 with open("numeros.txt", "w") as f:
-    for linha in range(0, 101):
-        f.write(f"{linha}\n")
+    for line in range(0, 101):
+        if line < 100:
+            f.write(f"{line},")
+        else:
+            f.write(f"{line}")
+
+with open("numeros.txt") as f:
+    lines = f.read()
+    numbers = [int(number) for number in lines.split(",")] 
+    print(f"A soma de 0 a 100 é: {sum(numbers)}")
