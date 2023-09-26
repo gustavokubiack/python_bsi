@@ -75,5 +75,5 @@ with open("numeros.txt", "w") as f:
 
 with open("numeros.txt") as f:
     lines = f.read()
-    numbers = [int(number) for number in lines.split(",")] 
+    numbers = [int(number) for number in lines.split(",")]
     print(f"A soma de 0 a 100 é: {sum(numbers)}")
