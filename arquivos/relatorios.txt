@@ -1,0 +1,7 @@
+Nr.	Usuário		Espaço Utilizado	Porcentagem de uso
+1	Alexandre 	434,99 MB                	16.849824%
+2	Anderson  	1187,99 MB               	46.018121%
+3	Antonio   	117,74 MB                	4.560791%
+4	Carlos    	87,03 MB                 	3.371204%
+5	Cesar     	0,94 MB                  	0.036412%
+6	Rosemary  	752,88 MB                	29.163648%

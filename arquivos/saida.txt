@@ -1,0 +1,332 @@
+Página 1 - Arquivo: arquivos/entrada.txt
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. L
+orem Ipsum has been the industry's standard dummy text ever since the 1500s,
+ when an unknown printer took a galley of type and scrambled it to make a ty
+pe specimen book. It has survived not only five centuries, but also the leap
+ into electronic typesetting, remaining essentially unchanged. It was popula
+rised in the 1960s with the release of Letraset sheets containing Lorem Ipsu
+m passages, and more recently with desktop publishing software like Aldus Pa
+geMaker including versions of Lorem Ipsum.
+
+Why do we use it?
+
+It is a long established fact that a reader will be distracted by the readab
+le content of a page when looking at its layout. The point of using Lorem Ip
+sum is that it has a more-or-less normal distribution of letters, as opposed
+ to using 'Content here, content here', making it look like readable English
+. Many desktop publishing packages and web page editors now use Lorem Ipsum 
+as their default model text, and a search for 'lorem ipsum' will uncover man
+y web sites still in their infancy. Various versions have evolved over the y
+ears, sometimes by accident, sometimes on purpose (injected humour and the l
+ike).
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. L
+orem Ipsum has been the industry's standard dummy text ever since the 1500s,
+ when an unknown printer took a galley of type and scrambled it to make a ty
+pe specimen book. It has survived not only five centuries, but also the leap
+ into electronic typesetting, remaining essentially unchanged. It was popula
+rised in the 1960s with the release of Letraset sheets containing Lorem Ipsu
+m passages, and more recently with desktop publishing software like Aldus Pa
+geMaker including versions of Lorem Ipsum.
+
+Why do we use it?
+
+It is a long established fact that a reader will be distracted by the readab
+le content of a page when looking at its layout. The point of using Lorem Ip
+sum is that it has a more-or-less normal distribution of letters, as opposed
+ to using 'Content here, content here', making it look like readable English
+. Many desktop publishing packages and web page editors now use Lorem Ipsum 
+as their default model text, and a search for 'lorem ipsum' will uncover man
+y web sites still in their infancy. Various versions have evolved over the y
+ears, sometimes by accident, sometimes on purpose (injected humour and the l
+ike).
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. L
+orem Ipsum has been the industry's standard dummy text ever since the 1500s,
+ when an unknown printer took a galley of type and scrambled it to make a ty
+pe specimen book. It has survived not only five centuries, but also the leap
+ into electronic typesetting, remaining essentially unchanged. It was popula
+rised in the 1960s with the release of Letraset sheets containing Lorem Ipsu
+m passages, and more recently with desktop publishing software like Aldus Pa
+geMaker including versions of Lorem Ipsum.
+
+Why do we use it?
+
+It is a long established fact that a reader will be distracted by the readab
+le content of a page when looking at its layout. The point of using Lorem Ip
+sum is that it has a more-or-less normal distribution of letters, as opposed
+ to using 'Content here, content here', making it look like readable English
+. Many desktop publishing packages and web page editors now use Lorem Ipsum 
+as their default model text, and a search for 'lorem ipsum' will uncover man
+y web sites still in their infancy. Various versions have evolved over the y
+ears, sometimes by accident, sometimes on purpose (injected humour and the l
+ike).
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. L
+orem Ipsum has been the industry's standard dummy text ever since the 1500s,
+ when an unknown printer took a galley of type and scrambled it to make a ty
+pe specimen book. It has survived not only five centuries, but also the leap
+ into electronic typesetting, remaining essentially unchanged. It was popula
+rised in the 1960s with the release of Letraset sheets containing Lorem Ipsu
+m passages, and more recently with desktop publishing software like Aldus Pa
+geMaker including versions of Lorem Ipsum.
+Página 1 - Arquivo: arquivos/saida.txt
+
+Página 2 - Arquivo: arquivos/entrada.txt
+Why do we use it?
+
+It is a long established fact that a reader will be distracted by the readab
+le content of a page when looking at its layout. The point of using Lorem Ip
+sum is that it has a more-or-less normal distribution of letters, as opposed
+ to using 'Content here, content here', making it look like readable English
+. Many desktop publishing packages and web page editors now use Lorem Ipsum 
+as their default model text, and a search for 'lorem ipsum' will uncover man
+y web sites still in their infancy. Various versions have evolved over the y
+ears, sometimes by accident, sometimes on purpose (injected humour and the l
+ike).It is a long established fact that a reader will be distracted by the r
+eadable content of a page when looking at its layout. The point of using Lor
+em Ipsum is that it has a more-or-less normal distribution of letters, as op
+posed to using 'Content here, content here', making it look like readable En
+glish. Many desktop publishing packages and web page editors now use Lorem I
+psum as their default model text, and a search for 'lorem ipsum' will uncove
+r many web sites still in their infancy. Various versions have evolved over 
+the years, sometimes by accident, sometimes on purpose (injected humour and 
+the like).It is a long established fact that a reader will be distracted by 
+the readable content of a page when looking at its layout. The point of usin
+g Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
+as opposed to using 'Content here, content here', making it look like readab
+le English. Many desktop publishing packages and web page editors now use Lo
+rem Ipsum as their default model text, and a search for 'lorem ipsum' will u
+ncover many web sites still in their infancy. Various versions have evolved 
+over the years, sometimes by accident, sometimes on purpose (injected humour
+ and the like).It is a long established fact that a reader will be distracte
+d by the readable content of a page when looking at its layout. The point of
+ using Lorem Ipsum is that it has a more-or-less normal distribution of lett
+ers, as opposed to using 'Content here, content here', making it look like r
+eadable English. Many desktop publishing packages and web page editors now u
+se Lorem Ipsum as their default model text, and a search for 'lorem ipsum' w
+ill uncover many web sites still in their infancy. Various versions have evo
+lved over the years, sometimes by accident, sometimes on purpose (injected h
+umour and the like).It is a long established fact that a reader will be dist
+racted by the readable content of a page when looking at its layout. The poi
+nt of using Lorem Ipsum is that it has a more-or-less normal distribution of
+ letters, as opposed to using 'Content here, content here', making it look l
+ike readable English. Many desktop publishing packages and web page editors 
+now use Lorem Ipsum as their default model text, and a search for 'lorem ips
+um' will uncover many web sites still in their infancy. Various versions hav
+e evolved over the years, sometimes by accident, sometimes on purpose (injec
+ted humour and the like).It is a long established fact that a reader will be
+ distracted by the readable content of a page when looking at its layout. Th
+e point of using Lorem Ipsum is that it has a more-or-less normal distributi
+on of letters, as opposed to using 'Content here, content here', making it l
+ook like readable English. Many desktop publishing packages and web page edi
+tors now use Lorem Ipsum as their default model text, and a search for 'lore
+m ipsum' will uncover many web sites still in their infancy. Various version
+s have evolved over the years, sometimes by accident, sometimes on purpose (
+injected humour and the like).
+
+It is a long established fact that a reader will be distracted by the readab
+le content of a page when looking at its layout. The point of using Lorem Ip
+sum is that it has a more-or-less normal distribution of letters, as opposed
+ to using 'Content here, content here', making it look like readable English
+. Many desktop publishing packages and web page editors now use Lorem Ipsum 
+as their default model text, and a search for 'lorem ipsum' will uncover man
+y web sites still in their infancy. Various versions have evolved over the y
+ears, sometimes by accident, sometimes on purpose (injected humour and the l
+ike).It is a long established fact that a reader will be distracted by the r
+eadable content of a page when looking at its layout. The point of using Lor
+em Ipsum is that it has a more-or-less normal distribution of letters, as op
+posed to using 'Content here, content here', making it look like readable En
+glish. Many desktop publishing packages and web page editors now use Lorem I
+psum as their default model text, and a search for 'lorem ipsum' will uncove
+r many web sites still in their infancy. Various versions have evolved over 
+the years, sometimes by accident, sometimes on purpose (injected humour and 
+the like).It is a long established fact that a reader will be distracted by 
+the readable content of a page when looking at its layout. The point of usin
+g Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
+as opposed to using 'Content here, content here', making it look like readab
+le English. Many desktop publishing packages and web page editors now use Lo
+rem Ipsum as their default model text, and a search for 'lorem ipsum' will u
+ncover many web sites still in their infancy. Various versions have evolved 
+over the years, sometimes by accident, sometimes on purpose (injected humour
+ and the like).It is a long established fact that a reader will be distracte
+d by the readable content of a page when looking at its layout. The point of
+ using Lorem Ipsum is that it has a more-or-less normal distribution of lett
+ers, as opposed to using 'Content here, content here', making it look like r
+eadable English. Many desktop publishing packages and web page editors now u
+se Lorem Ipsum as their default model text, and a search for 'lorem ipsum' w
+ill uncover many web sites still in their infancy. Various versions have evo
+lved over the years, sometimes by accident, sometimes on purpose (injected h
+umour and the like).It is a long established fact that a reader will be dist
+racted by the readable content of a page when looking at its layout. The poi
+nt of using Lorem Ipsum is that it has a more-or-less normal distribution of
+ letters, as opposed to using 'Content here, content here', making it look l
+ike readable English. Many desktop publishing packages and web page editors 
+now use Lorem Ipsum as their default model text, and a search for 'lorem ips
+um' will uncover many web sites still in their infancy. Various versions hav
+e evolved over the years, sometimes by accident, sometimes on purpose (injec
+ted humour and the like).It is a long established fact that a reader will be
+ distracted by the readable content of a page when looking at its layout. Th
+e point of using Lorem Ipsum is that it has a more-or-less normal distributi
+on of letters, as opposed to using 'Content here, content here', making it l
+ook like readable English. Many desktop publishing packages and web page edi
+tors now use Lorem Ipsum as their default model text, and a search for 'lore
+m ipsum' will uncover many web sites still in their infancy. Various version
+s have evolved over the years, sometimes by accident, sometimes on purpose (
+injected humour and the like).
+Página 2 - Arquivo: arquivos/saida.txt
+
+Página 3 - Arquivo: arquivos/entrada.txt
+It is a long established fact that a reader will be distracted by the readab
+le content of a page when looking at its layout. The point of using Lorem Ip
+sum is that it has a more-or-less normal distribution of letters, as opposed
+ to using 'Content here, content here', making it look like readable English
+. Many desktop publishing packages and web page editors now use Lorem Ipsum 
+as their default model text, and a search for 'lorem ipsum' will uncover man
+y web sites still in their infancy. Various versions have evolved over the y
+ears, sometimes by accident, sometimes on purpose (injected humour and the l
+ike).It is a long established fact that a reader will be distracted by the r
+eadable content of a page when looking at its layout. The point of using Lor
+em Ipsum is that it has a more-or-less normal distribution of letters, as op
+posed to using 'Content here, content here', making it look like readable En
+glish. Many desktop publishing packages and web page editors now use Lorem I
+psum as their default model text, and a search for 'lorem ipsum' will uncove
+r many web sites still in their infancy. Various versions have evolved over 
+the years, sometimes by accident, sometimes on purpose (injected humour and 
+the like).It is a long established fact that a reader will be distracted by 
+the readable content of a page when looking at its layout. The point of usin
+g Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
+as opposed to using 'Content here, content here', making it look like readab
+le English. Many desktop publishing packages and web page editors now use Lo
+rem Ipsum as their default model text, and a search for 'lorem ipsum' will u
+ncover many web sites still in their infancy. Various versions have evolved 
+over the years, sometimes by accident, sometimes on purpose (injected humour
+ and the like).It is a long established fact that a reader will be distracte
+d by the readable content of a page when looking at its layout. The point of
+ using Lorem Ipsum is that it has a more-or-less normal distribution of lett
+ers, as opposed to using 'Content here, content here', making it look like r
+eadable English. Many desktop publishing packages and web page editors now u
+se Lorem Ipsum as their default model text, and a search for 'lorem ipsum' w
+ill uncover many web sites still in their infancy. Various versions have evo
+lved over the years, sometimes by accident, sometimes on purpose (injected h
+umour and the like).It is a long established fact that a reader will be dist
+racted by the readable content of a page when looking at its layout. The poi
+nt of using Lorem Ipsum is that it has a more-or-less normal distribution of
+ letters, as opposed to using 'Content here, content here', making it look l
+ike readable English. Many desktop publishing packages and web page editors 
+now use Lorem Ipsum as their default model text, and a search for 'lorem ips
+um' will uncover many web sites still in their infancy. Various versions hav
+e evolved over the years, sometimes by accident, sometimes on purpose (injec
+ted humour and the like).It is a long established fact that a reader will be
+ distracted by the readable content of a page when looking at its layout. Th
+e point of using Lorem Ipsum is that it has a more-or-less normal distributi
+on of letters, as opposed to using 'Content here, content here', making it l
+ook like readable English. Many desktop publishing packages and web page edi
+tors now use Lorem Ipsum as their default model text, and a search for 'lore
+m ipsum' will uncover many web sites still in their infancy. Various version
+s have evolved over the years, sometimes by accident, sometimes on purpose (
+injected humour and the like).
+
+It is a long established fact that a reader will be distracted by the readab
+le content of a page when looking at its layout. The point of using Lorem Ip
+sum is that it has a more-or-less normal distribution of letters, as opposed
+ to using 'Content here, content here', making it look like readable English
+. Many desktop publishing packages and web page editors now use Lorem Ipsum 
+as their default model text, and a search for 'lorem ipsum' will uncover man
+y web sites still in their infancy. Various versions have evolved over the y
+ears, sometimes by accident, sometimes on purpose (injected humour and the l
+ike).It is a long established fact that a reader will be distracted by the r
+eadable content of a page when looking at its layout. The point of using Lor
+em Ipsum is that it has a more-or-less normal distribution of letters, as op
+posed to using 'Content here, content here', making it look like readable En
+glish. Many desktop publishing packages and web page editors now use Lorem I
+psum as their default model text, and a search for 'lorem ipsum' will uncove
+r many web sites still in their infancy. Various versions have evolved over 
+the years, sometimes by accident, sometimes on purpose (injected humour and 
+the like).It is a long established fact that a reader will be distracted by 
+the readable content of a page when looking at its layout. The point of usin
+g Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
+as opposed to using 'Content here, content here', making it look like readab
+le English. Many desktop publishing packages and web page editors now use Lo
+rem Ipsum as their default model text, and a search for 'lorem ipsum' will u
+ncover many web sites still in their infancy. Various versions have evolved 
+over the years, sometimes by accident, sometimes on purpose (injected humour
+ and the like).It is a long established fact that a reader will be distracte
+d by the readable content of a page when looking at its layout. The point of
+ using Lorem Ipsum is that it has a more-or-less normal distribution of lett
+ers, as opposed to using 'Content here, content here', making it look like r
+eadable English. Many desktop publishing packages and web page editors now u
+se Lorem Ipsum as their default model text, and a search for 'lorem ipsum' w
+ill uncover many web sites still in their infancy. Various versions have evo
+lved over the years, sometimes by accident, sometimes on purpose (injected h
+umour and the like).It is a long established fact that a reader will be dist
+racted by the readable content of a page when looking at its layout. The poi
+nt of using Lorem Ipsum is that it has a more-or-less normal distribution of
+ letters, as opposed to using 'Content here, content here', making it look l
+ike readable English. Many desktop publishing packages and web page editors 
+now use Lorem Ipsum as their default model text, and a search for 'lorem ips
+um' will uncover many web sites still in their infancy. Various versions hav
+e evolved over the years, sometimes by accident, sometimes on purpose (injec
+ted humour and the like).It is a long established fact that a reader will be
+ distracted by the readable content of a page when looking at its layout. Th
+e point of using Lorem Ipsum is that it has a more-or-less normal distributi
+on of letters, as opposed to using 'Content here, content here', making it l
+ook like readable English. Many desktop publishing packages and web page edi
+tors now use Lorem Ipsum as their default model text, and a search for 'lore
+m ipsum' will uncover many web sites still in their infancy. Various version
+s have evolved over the years, sometimes by accident, sometimes on purpose (
+injected humour and the like).
+Página 3 - Arquivo: arquivos/saida.txt
+
+Página 4 - Arquivo: arquivos/entrada.txt
+It is a long established fact that a reader will be distracted by the readab
+le content of a page when looking at its layout. The point of using Lorem Ip
+sum is that it has a more-or-less normal distribution of letters, as opposed
+ to using 'Content here, content here', making it look like readable English
+. Many desktop publishing packages and web page editors now use Lorem Ipsum 
+as their default model text, and a search for 'lorem ipsum' will uncover man
+y web sites still in their infancy. Various versions have evolved over the y
+ears, sometimes by accident, sometimes on purpose (injected humour and the l
+ike).It is a long established fact that a reader will be distracted by the r
+eadable content of a page when looking at its layout. The point of using Lor
+em Ipsum is that it has a more-or-less normal distribution of letters, as op
+posed to using 'Content here, content here', making it look like readable En
+glish. Many desktop publishing packages and web page editors now use Lorem I
+psum as their default model text, and a search for 'lorem ipsum' will uncove
+r many web sites still in their infancy. Various versions have evolved over 
+the years, sometimes by accident, sometimes on purpose (injected humour and 
+the like).It is a long established fact that a reader will be distracted by 
+the readable content of a page when looking at its layout. The point of usin
+g Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
+as opposed to using 'Content here, content here', making it look like readab
+le English. Many desktop publishing packages and web page editors now use Lo
+rem Ipsum as their default model text, and a search for 'lorem ipsum' will u
+ncover many web sites still in their infancy. Various versions have evolved 
+over the years, sometimes by accident, sometimes on purpose (injected humour
+ and the like).It is a long established fact that a reader will be distracte
+d by the readable content of a page when looking at its layout. The point of
+ using Lorem Ipsum is that it has a more-or-less normal distribution of lett
+ers, as opposed to using 'Content here, content here', making it look like r
+eadable English. Many desktop publishing packages and web page editors now u
+se Lorem Ipsum as their default model text, and a search for 'lorem ipsum' w
+ill uncover many web sites still in their infancy. Various versions have evo
+lved over the years, sometimes by accident, sometimes on purpose (injected h
+umour and the like).It is a long established fact that a reader will be dist
+racted by the readable content of a page when looking at its layout. The poi
+nt of using Lorem Ipsum is that it has a more-or-less normal distribution of
+ letters, as opposed to using 'Content here, content here', making it look l
+ike readable English. Many desktop publishing packages and web page editors 
+now use Lorem Ipsum as their default model text, and a search for 'lorem ips
+um' will uncover many web sites still in their infancy. Various versions hav
+e evolved over the years, sometimes by accident, sometimes on purpose (injec
+ted humour and the like).It is a long established fact that a reader will be
+ distracted by the readable content of a page when looking at its layout. Th
+e point of using Lorem Ipsum is that it has a more-or-less normal distributi
+on of letters, as opposed to using 'Content here, content here', making it l
+ook like readable English. Many desktop publishing packages and web page edi
+tors now use Lorem Ipsum as their default model text, and a search for 'lore
+m ipsum' will uncover many web sites still in their infancy. Various version
+s have evolved over the years, sometimes by accident, sometimes on purpose (
+injected humour and the like).
+Página 4 - Arquivo: arquivos/saida.txt
+

@@ -71,7 +71,7 @@ print(f"O status da requisição: {response.status_code}")
 
 # 10. Importe a biblioteca pandas, leia um arquivo CSV (por exemplo, "dados.csv") e exiba`` as primeiras linhas do DataFrame.
 
-df = pd.read_csv("../dataset.csv")
+df = pd.read_csv("libs/dataset.csv")
 print(df.head(10))
 
 # 11. Escreva um programa que importe o módulo os e imprima o diretório de trabalho atual.
